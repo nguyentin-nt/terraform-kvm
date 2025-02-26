@@ -1,0 +1,5 @@
+vm_name,ip_address,hostname,app_type,disk_source
+vm4-app4,192.168.122.24,vm4-app4,app4,/var/lib/libvirt/images/compose.qcow2
+vm3-app3,192.168.122.23,vm3-app3,app3,/var/lib/libvirt/images/template94.qcow2
+
+
