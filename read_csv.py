@@ -12,7 +12,8 @@ with open(csv_file, "r") as file:
             "vm_name": row["vm_name"],
             "ip_address": row["ip_address"],
             "hostname": row["hostname"],
-            "app_type": row["app_type"]
+            "app_type": row["app_type"],
+            "disk_source": row["disk_source"]
         })
 
 # Encode danh sách VM thành một chuỗi JSON
